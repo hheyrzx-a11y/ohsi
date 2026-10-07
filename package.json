@@ -1,0 +1,18 @@
+{
+  "name": "kayro-studio-hq-patch-api",
+  "version": "1.0.0",
+  "description": "API de KAYRO STUDIO para parchar videos MP4 (H.264/AVC) con el parche HQ, sin pérdida de calidad.",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
