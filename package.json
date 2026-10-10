@@ -1,0 +1,17 @@
+{
+  "name": "kayro-patch-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kayro Patch API: recibe un MP4 H.264 (hasta 1080p y 120 fps), lo parchea, lo entrega y lo borra",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^2.0.2"
+  }
+}
